@@ -26,18 +26,18 @@ import tgcrypto
 import cloudscraper
 
 bot = Client("bot",
-             bot_token='add',
-             api_id=add,
-             api_hash='add')
+             bot_token='8564398983:AAHuuntq53gVgwIxQash63fatvHq-27BJTc',
+             api_id=20807000,
+             api_hash='cde2366a7c61e23f4cb44618cbe6cf70)
 
-owner_id = [6530997270]
-auth_users = [6530997270]
+owner_id = [890749443]
+auth_users = [890749443]
 photo1 = 'https://envs.sh/PQ_.jpg'
 getstatusoutput(f"wget {photo1} -O 'photo.jpg'")
 photo = "photo.jpg"
 
 
-token_cp = 'your cp token'
+token_cp = 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MTY0MDQwNzkyLCJvcmdJZCI6ODEyNDEwLCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTgyMTAxNjk5NTEiLCJuYW1lIjoiUHJpbmNlcGlhIiwiZW1haWwiOiJwcmluY2VwaWExNjFAZ21haWwuY29tIiwiaXNJbnRlcm5hdGlvbmFsIjowLCJkZWZhdWx0TGFuZ3VhZ2UiOiJFTiIsImNvdW50cnlDb2RlIjoiSU4iLCJjb3VudHJ5SVNPIjoiOTEiLCJ0aW1lem9uZSI6IkdNVCs1OjMwIiwiaXNEaXkiOnRydWUsIm9yZ0NvZGUiOiJra3Vja3kiLCJpc0RpeVN1YmFkbWluIjowLCJmaW5nZXJwcmludElkIjoiNGI1ODRhYWNkYzZmNGIyYWFhYWEwNjU1NjdmNTRmMzQiLCJpYXQiOjE3NzYxNjEzMjIsImV4cCI6MTc3Njc2NjEyMn0.jgjoUK85Dtfts-OmWjulYQanxb642eoTSV1GHe-dU-XSa-6IpgGtrK5oD6ZFVPg8'
 
 @bot.on_message(filters.command(["start"]) & filters.user(owner_id))
 async def account_login(bot: Client, m: Message):
